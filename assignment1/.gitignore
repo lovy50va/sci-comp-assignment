@@ -1,7 +1,9 @@
+# Ignore output files
 *.o
 horner
 horner.exe
-*.tar.gz
 *.csv
 *.txt
 *.m
+processed_outputs.tar.gz
+!solver_output.tar.gz
