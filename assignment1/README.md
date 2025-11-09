@@ -1,4 +1,4 @@
-# Scientific Computing I - Assignment 1
+ # Scientific Computing I - Assignment 1
 
 ## Group Members (Group - R)
 
