@@ -13,6 +13,7 @@ double eval_horner(int n, double *a, double x) {
     return r;
 }
 
+
 int main() {
     double c[] = {-998,-998,-998,-998,-998,-998,1};
     printf("x=1.0:\n  Direct: %.15e\n  Horner: %.15e\n",
