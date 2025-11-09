@@ -1,0 +1,7 @@
+*.o
+horner
+horner.exe
+*.tar.gz
+*.csv
+*.txt
+*.m
