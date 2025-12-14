@@ -1,2 +1,2 @@
-# sci-comp-assignment1
-Assignment 1 - Scientific Computing I
+# sci-comp-assignment
+Assignment  - Scientific Computing I
