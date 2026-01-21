@@ -1,0 +1,20 @@
+CC = gcc
+CFLAGS = -std=c11 -O2 -Wall -Wextra
+LIBS = -lopenblas -llapacke
+
+TARGET = main
+OBJS = main.o matrix.o dense_solvers.o
+
+all: $(TARGET)
+
+$(TARGET): $(OBJS)
+	$(CC) $(CFLAGS) -o $@ $^ $(LIBS)
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $<
+
+run: $(TARGET)
+	./$(TARGET)
+
+clean:
+	rm -f *.o $(TARGET)
