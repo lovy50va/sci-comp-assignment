@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -std=c11 -O2 -Wall -Wextra
-LIBS = -lopenblas -llapacke
+LIBS = -lopenblas -llapacke -lm
 
 TARGET = main
 OBJS = main.o matrix.o dense_solvers.o
@@ -14,7 +14,7 @@ $(TARGET): $(OBJS)
 	$(CC) $(CFLAGS) -c $<
 
 run: $(TARGET)
-	./$(TARGET)
+	./$(TARGET) dense_mat.txt
 
 clean:
 	rm -f *.o $(TARGET)

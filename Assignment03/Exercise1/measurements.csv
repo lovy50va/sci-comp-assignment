@@ -1,0 +1,4 @@
+function,runtime in s,residual
+mp_iter_refinement,0.000579,1.256109e-08
+basic_lu,0.000654,1.736389e-10
+basic_iter_refinement,0.000392,1.451731e-10
